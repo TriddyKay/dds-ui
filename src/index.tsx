@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { App } from './App';
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider } from './context/triddys-router/RouterProvider';
+import {UserProfileProvider} from "./context/userprofile/UserProfileProvider"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider>
+      <UserProfileProvider>
+        <App />
+      </UserProfileProvider>
+    </RouterProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

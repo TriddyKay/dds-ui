@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import { useContext } from 'react';
+import {RouterContext} from "./context/triddys-router/RouterContext"
+import {Route} from "./context/triddys-router/RouterProvider"
+import {DDHome} from "./components/DDHome"
+import {Login} from "./components/Login"
+import {NavBar} from "./components/NavBar"
 
-function App() {
+export const App = () => {
+  const { route, setRoute } = useContext(RouterContext)
+
+  const changeRoute = () => {
+    switch(route) {
+      case Route.HOME: return <DDHome setRoute={setRoute}/>
+      case Route.LOGIN: return <Login setRoute={setRoute}/>
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      { changeRoute() }
     </div>
   );
 }
-
-export default App;
