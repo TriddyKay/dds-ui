@@ -2,9 +2,11 @@ import React, {useState} from 'react'
 import {Form, Input} from 'semantic-ui-react'
 import {Route} from "../context/triddys-router/RouterProvider"
 import '../styles/dd-home.css'
+import {UserProfile} from "../domain/UserProfile"
 
 type Props = {
   setRoute: (route: Route) => void
+  setUserProfile: (userProfile: UserProfile) => void
 }
 
 export const Login = ({setRoute}: Props) => {
