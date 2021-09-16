@@ -20,7 +20,7 @@ export const App = () => {
 
   return (
     <div>
-      <NavBar />
+      <NavBar setRoute={setRoute}/>
       { changeRoute() }
     </div>
   );

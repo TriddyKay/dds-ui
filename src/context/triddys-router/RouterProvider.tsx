@@ -3,7 +3,8 @@ import {RouterContext} from './RouterContext'
 
 export enum Route {
   HOME = 'home',
-  LOGIN = 'login'
+  LOGIN = 'login',
+  SIGNUP = 'signup'
 }
 
 export const RouterProvider: React.FC = ({children}) => {
