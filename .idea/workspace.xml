@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76e93e60-4909-492e-af9b-c44f98359c18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/userprofile/UserProfileProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/userprofile/UserProfileProvider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,8 @@
       <workItem from="1631770821447" duration="1184000" />
       <workItem from="1631774030112" duration="110000" />
       <workItem from="1631774888822" duration="895000" />
-      <workItem from="1631793381879" duration="804000" />
+      <workItem from="1631793381879" duration="948000" />
+      <workItem from="1631794427052" duration="325000" />
     </task>
     <servers />
   </component>
