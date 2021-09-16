@@ -7,13 +7,11 @@ import { RouterProvider } from './context/triddys-router/RouterProvider';
 import {UserProfileProvider} from "./context/userprofile/UserProfileProvider"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <RouterProvider>
-      <UserProfileProvider>
-        <App />
-      </UserProfileProvider>
-    </RouterProvider>
-  </React.StrictMode>,
+  <RouterProvider>
+    <UserProfileProvider>
+      <App />
+    </UserProfileProvider>
+  </RouterProvider>,
   document.getElementById('root')
 );
 

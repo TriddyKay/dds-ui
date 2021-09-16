@@ -3,18 +3,24 @@ import {Form, Input} from 'semantic-ui-react'
 import {Route} from "../context/triddys-router/RouterProvider"
 import '../styles/dd-home.css'
 import {UserProfile} from "../domain/UserProfile"
+import {UserProfileService} from "../service/UserProfileService"
 
 type Props = {
   setRoute: (route: Route) => void
   setUserProfile: (userProfile: UserProfile) => void
 }
 
-export const Login = ({setRoute}: Props) => {
+export const Login = ({setRoute, setUserProfile}: Props) => {
   const [username, setUsername] = useState<string>('')
   const [password, setPassword] = useState<string>('')
 
-  const handleSubmit = () => {
-    setRoute(Route.HOME)
+  const handleSubmit = async () => {
+    const userProfile = await UserProfileService.getUserProfile(username)
+
+    if(userProfile) {
+      setUserProfile(userProfile)
+      setRoute(Route.HOME)
+    }
   }
 
   return (
