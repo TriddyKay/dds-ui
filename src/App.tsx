@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useContext } from 'react';
+import {useContext} from 'react'
 import {RouterContext} from "./context/triddys-router/RouterContext"
 import {Route} from "./context/triddys-router/RouterProvider"
 import {DDHome} from "./components/DDHome"
@@ -20,7 +20,7 @@ export const App = () => {
 
   return (
     <div>
-      <NavBar setRoute={setRoute}/>
+      <NavBar setRoute={setRoute} userProfile={userProfile}/>
       { changeRoute() }
     </div>
   );

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="76e93e60-4909-492e-af9b-c44f98359c18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/userprofile/UserProfileContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/userprofile/UserProfileContext.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/userprofile/UserProfileProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/userprofile/UserProfileProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/service" />
       <recent name="$PROJECT_DIR$/src/domain" />
       <recent name="$PROJECT_DIR$/src/context" />
@@ -68,7 +73,7 @@
       <workItem from="1631774030112" duration="110000" />
       <workItem from="1631774888822" duration="895000" />
       <workItem from="1631793381879" duration="948000" />
-      <workItem from="1631794427052" duration="325000" />
+      <workItem from="1631794427052" duration="3607000" />
     </task>
     <servers />
   </component>

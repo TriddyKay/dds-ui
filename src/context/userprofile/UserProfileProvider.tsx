@@ -19,7 +19,7 @@ export const UserProfileProvider: React.FC = ({children}) => {
      : localStorage.removeItem("userprofile")
   }, [userProfile])
 
-  const signInUser = (userProfile: UserProfile) => {
+  const signInUser = (userProfile: UserProfile | null) => {
     setUserProfile(userProfile)
   }
 

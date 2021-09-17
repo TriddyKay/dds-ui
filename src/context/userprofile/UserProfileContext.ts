@@ -3,7 +3,7 @@ import {UserProfile} from "../../domain/UserProfile"
 
 export type UserProfileContextType = {
   userProfile: UserProfile | null,
-  setUserProfile: (userProfile: UserProfile) => void
+  setUserProfile: (userProfile: UserProfile | null) => void
 }
 
 export const UserProfileContext = React.createContext<UserProfileContextType>({
