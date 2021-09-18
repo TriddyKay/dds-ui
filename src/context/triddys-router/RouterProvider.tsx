@@ -4,7 +4,8 @@ import {RouterContext} from './RouterContext'
 export enum Route {
   HOME = 'home',
   LOGIN = 'login',
-  SIGNUP = 'signup'
+  SIGNUP = 'signup',
+  HEROES = 'heroes'
 }
 
 export const RouterProvider: React.FC = ({children}) => {

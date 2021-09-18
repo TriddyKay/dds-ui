@@ -1,0 +1,9 @@
+.display-heroes-container {
+  background-color: #01031e;
+  height: 50%;
+  width: 50%;
+}
+
+.display-heroes-container button {
+  padding: 0 !important;
+}

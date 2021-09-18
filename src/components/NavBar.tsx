@@ -26,7 +26,22 @@ export const NavBar = ({setRoute, userProfile}: Props) => {
           sign up
         </Button>
       </React.Fragment>}
-      { userProfile && <DropdownNavigator /> }
+      {userProfile &&
+      <React.Fragment>
+        <DropdownNavigator />
+        <div>
+          <Button className={'trids-button'}
+                  onClick={() => setRoute(Route.HOME)}
+                  inverted
+                  content={'Home'}
+                  color={'blue'}/>
+          <Button className={'trids-button'}
+                  onClick={() => setRoute(Route.HEROES)}
+                  inverted
+                  content={'Heroes'}
+                  color={'blue'}/>
+        </div>
+      </React.Fragment>}
     </div>
   )
 }
